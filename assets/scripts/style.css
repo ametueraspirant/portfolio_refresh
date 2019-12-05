@@ -3,3 +3,14 @@
 	font-family: 'OpenDyslexicRegular';
 }
 
+.header
+{
+	background-color: black;
+	color: white;
+	padding: 17px 10px 23px;
+}
+
+h1
+{
+	font-size: 23px;
+}
