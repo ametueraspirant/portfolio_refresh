@@ -5,12 +5,59 @@
 
 .header
 {
-	background-color: black;
+	background-image: url("../images/black-Linen_@2X.png");
 	color: white;
-	padding: 17px 10px 23px;
+	padding: 17px 15px 23px;
+	position: fixed;
+	width: 100%;
+}
+
+.headerlink
+{
+	margin: 0 10px;
+	padding-bottom: 3px;
+	transition: width 0.5s ease, background-color 0.5s ease;
+}
+
+.headerlink:visited
+{
+	background-color: wheat;
+	border-bottom: 3px solid wheat;
+}
+
+.headerlink:hover
+{
+	border-bottom: 3px solid white;
+}
+
+.body
+{
+	background-image: url("../images/christmas-dark.png");
+	width: 100%;
+	padding-top: 60px;
+}
+
+.content
+{
+	background-color: white;
+	margin: 0 auto;
+	padding: 30px 50px;
 }
 
 h1
 {
-	font-size: 23px;
+	font-size: 21px;
+}
+
+.fontus-biggus
+{
+	font-size: 40px;
+	font-weight: lighter;
+}
+
+.footer
+{
+		background-image: url("../images/black-Linen_@2X.png");
+		width: 100%;
+		height: 75px;
 }
